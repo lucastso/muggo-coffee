@@ -1,0 +1,121 @@
+.home_bg {
+  height: 87.5vh;
+  width: 100vw;
+  background-image: url("/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_bg2 {
+  border-radius: 0.25rem;
+  height: 38rem;
+  width: 42rem;
+  background-image: url("/bg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.home_hero_texto {
+  font-family: "Italiana", serif;
+  padding-right: 7.5rem;
+  font-size: 2.25rem;
+  color: #fcf6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(134, 136, 172, 0.2);
+}
+
+.hero1_text,
+.hero4_text {
+  width: 33.3%;
+  text-align: right;
+}
+
+.hero2_text {
+  width: 33.3%;
+  text-align: center;
+}
+
+.hero3_text {
+  width: 33.3%;
+  text-align: center;
+}
+
+.home_second_section {
+  height: 100vh;
+  width: 100vw;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  display: flex;
+  justify-content: justify-between;
+  align-items: center;
+  gap: 5rem;
+  color: #272727;
+}
+
+.home_bg2_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #272727;
+  height: 5rem;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.home_bg_details_h1 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.home_bg_details_p {
+  font-size: 0.75rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.home_second_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home_second_text_title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home_second_text_p {
+  font-family: "Inter", sans-serif;
+  line-height: 2rem;
+}
+
+.home_second_text_p_first {
+  font-family: "Inter", sans-serif;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+}
+
+.home_line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
