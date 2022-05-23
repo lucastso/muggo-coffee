@@ -1,5 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
+import styles from "./nav.module.css";
 
 const Nav = () => {
   const router = useRouter();
@@ -39,7 +40,7 @@ const Nav = () => {
   };
 
   return (
-    <nav>
+    <nav className={styles.nav_container}>
       <img src="/logo.svg" alt="logo" />
       {renderNavComponent()}
     </nav>
