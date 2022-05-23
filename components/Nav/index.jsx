@@ -8,9 +8,9 @@ const Nav = () => {
   const renderNavComponent = () => {
     if (router.pathname == "/") {
       return (
-        <div>
+        <div className={styles.nav_items}>
           <a href="/blog">Blog</a>
-          <a href="/products">
+          <a href="/products" className={styles.nav_button}>
             <p>Products</p>
             <img src="/arrow.svg" alt="arrow" />
           </a>
@@ -18,9 +18,9 @@ const Nav = () => {
       );
     } else if (router.pathname == "/blog") {
       return (
-        <div>
+        <div className={styles.nav_items}>
           <a href="/">Home</a>
-          <a href="/products">
+          <a href="/products" className={styles.nav_button}>
             <p>Products</p>
             <img src="/arrow.svg" alt="arrow" />
           </a>
@@ -28,9 +28,9 @@ const Nav = () => {
       );
     } else {
       return (
-        <div>
+        <div className={styles.nav_items}>
           <a href="/">Home</a>
-          <a href="/blog">
+          <a href="/blog" className={styles.nav_button}>
             <p>Blog</p>
             <img src="/arrow.svg" alt="arrow" />
           </a>

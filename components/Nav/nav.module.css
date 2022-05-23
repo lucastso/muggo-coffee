@@ -1,3 +1,29 @@
 .nav_container {
-  background-color: red;
+  background-color: white;
+  height: 7.5rem;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  color: #272727;
+  font-family: "Inter", sans-serif;
+}
+
+.nav_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #272727;
+  border-radius: 7.5rem;
+  height: 2.5rem;
+  width: 9rem;
 }
