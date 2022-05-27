@@ -71,8 +71,16 @@ function Home() {
         <img src="/line.svg" alt="line" />
       </div>
 
-      <section>
-        
+      <section className={styles.home_second_hero}>
+        <img src="/bg3.png" alt="background 3" className={styles.home_second_hero_img}/>
+        <div className={styles.home_hero_texto2}>
+          <h1 className={styles.hero1_text2}>
+            USED APARTMENTS WITH GREAT PRICES
+          </h1>
+          <h1 className={styles.hero2_text2}>CONVEY A SENSE OF NOSTALGIA</h1>
+          <h1 className={styles.hero3_text2}>AT THE SAME TIME BEING FRESH</h1>
+          <h1 className={styles.hero4_text2}>HAVE YOUR VALUES</h1>
+        </div>
       </section>
     </>
   );

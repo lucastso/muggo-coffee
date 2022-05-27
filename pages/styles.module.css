@@ -32,6 +32,18 @@
   background-color: rgba(134, 136, 172, 0.2);
 }
 
+.home_hero_texto2 {
+  font-family: "Italiana", serif;
+  font-size: 2.25rem;
+  color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
 .hero1_text,
 .hero4_text {
   width: 33.3%;
@@ -46,6 +58,33 @@
 .hero3_text {
   width: 33.3%;
   text-align: center;
+}
+
+.hero1_text2,
+.hero4_text2 {
+  width: 50%;
+  text-align: right;
+}
+
+.hero2_text2 {
+  width: 50%;
+  text-align: center;
+}
+
+.hero3_text2 {
+  width: 50%;
+  text-align: center;
+}
+
+.home_second_hero {
+  height: 100vh;
+  width: 100vw;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  display: flex;
+  justify-content: justify-between;
+  align-items: center;
+  gap: 5rem;
 }
 
 .home_second_section {
