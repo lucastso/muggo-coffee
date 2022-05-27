@@ -70,6 +70,10 @@ function Home() {
       <div className={styles.home_line}>
         <img src="/line.svg" alt="line" />
       </div>
+
+      <section>
+        
+      </section>
     </>
   );
 }
