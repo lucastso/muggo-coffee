@@ -1,0 +1,40 @@
+.footer_section {
+  width: 100vw;
+  height: 20rem;
+  background-color: #A1DDFF;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.footer_item_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+  color: #272727;
+}
+
+.footer_item_link {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.footer_item_link_link {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}

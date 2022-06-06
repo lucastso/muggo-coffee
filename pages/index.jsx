@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import styles from "./styles.module.css";
 
@@ -72,7 +73,6 @@ function Home() {
       </div>
 
       <section className={styles.home_second_hero}>
-        <img src="/bg3.png" alt="background 3" className={styles.home_second_hero_img}/>
         <div className={styles.home_hero_texto2}>
           <h1 className={styles.hero1_text2}>
             USED APARTMENTS WITH GREAT PRICES
@@ -81,7 +81,10 @@ function Home() {
           <h1 className={styles.hero3_text2}>AT THE SAME TIME BEING FRESH</h1>
           <h1 className={styles.hero4_text2}>HAVE YOUR VALUES</h1>
         </div>
+        <img src="/bg3.png" alt="background 3" className={styles.home_second_hero_img}/>
       </section>
+
+      <Footer />
     </>
   );
 }
