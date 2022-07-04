@@ -81,7 +81,7 @@ function Home() {
           <h1 className={styles.hero3_text2}>AT THE SAME TIME BEING FRESH</h1>
           <h1 className={styles.hero4_text2}>HAVE YOUR VALUES</h1>
         </div>
-        <img src="/bg3.png" alt="background 3" className={styles.home_second_hero_img}/>
+        <img src="/bg3.jpg" alt="background 3" className={styles.home_second_hero_img}/>
       </section>
 
       <Footer />
