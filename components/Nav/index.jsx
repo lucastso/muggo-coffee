@@ -1,48 +1,26 @@
 import React from "react";
-import { useRouter } from "next/router";
-import styles from "./nav.module.css";
 
 const Nav = () => {
-  const router = useRouter();
-
-  const renderNavComponent = () => {
-    if (router.pathname == "/") {
-      return (
-        <div className={styles.nav_items}>
-          <a href="/blog">Blog</a>
-          <a href="/products" className={styles.nav_button}>
-            <p>Products</p>
-            <img src="/arrow.svg" alt="arrow" />
-          </a>
-        </div>
-      );
-    } else if (router.pathname == "/blog") {
-      return (
-        <div className={styles.nav_items}>
-          <a href="/">Home</a>
-          <a href="/products" className={styles.nav_button}>
-            <p>Products</p>
-            <img src="/arrow.svg" alt="arrow" />
-          </a>
-        </div>
-      );
-    } else {
-      return (
-        <div className={styles.nav_items}>
-          <a href="/">Home</a>
-          <a href="/blog" className={styles.nav_button}>
-            <p>Blog</p>
-            <img src="/arrow.svg" alt="arrow" />
-          </a>
-        </div>
-      );
-    }
-  };
-
   return (
-    <nav className={styles.nav_container}>
-      <img src="/logo.svg" alt="logo" />
-      {renderNavComponent()}
+    <nav className="w-screen h-[5.375rem] backdrop-blur-xl bg-custom-black flex justify-between items-center px-40 absolute top-0 left-0 text-white">
+      <div className="flex gap-12">
+        <img src="/logo.svg" alt="logo" />
+        <div className="w-px bg-white opacity-25 rounded-full"></div>
+        <a href="/" className="text-lg font-bold">
+          Home
+        </a>
+        <a href="/sobre" className="text-lg font-bold">
+          Sobre
+        </a>
+        <a href="/blog" className="text-lg font-bold">
+          Blog
+        </a>
+      </div>
+      <button className="flex items-center justify-center py-2 px-6 rounded-full bg-custom-blue">
+        <a href="/search" className="font-bold text-lg">
+          Pesquisar
+        </a>
+      </button>
     </nav>
   );
 };

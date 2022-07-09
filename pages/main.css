@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Italiana&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Poppins:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -17,10 +21,4 @@
 
 ::-webkit-scrollbar-thumb {
   background: #272727;
-}
-
-a {
-  text-decoration: none;
-  color: #272727;
-  font-size: 1rem;
 }
