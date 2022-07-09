@@ -3,8 +3,6 @@ import React, { useState } from "react";
 const HomeCard = () => {
   const [option, setOption] = useState("Comprar");
 
-  const handleClick = (event) => {};
-
   return (
     <div className="bg-white w-[40rem] rounded-2xl mt-60 drop-shadow-2xl p-10">
       <h1 className="flex items-center justify-center font-bold text-lg">
@@ -15,6 +13,7 @@ const HomeCard = () => {
           className={`w-1/2 flex justify-center items-center font-bold cursor-pointer ${
             option == "Comprar" ? "" : "opacity-50"
           }`}
+          onClick={() => setOption("Comprar")}
         >
           Comprar
         </p>
@@ -22,6 +21,7 @@ const HomeCard = () => {
           className={`w-1/2 flex justify-center items-center font-bold cursor-pointer ${
             option == "Alugar" ? "" : "opacity-50"
           }`}
+          onClick={() => setOption("Alugar")}
         >
           Alugar
         </p>
@@ -58,7 +58,7 @@ const HomeCard = () => {
           />
         </div>
         <button className="bg-custom-blue mt-6 h-12 w-40 self-end rounded-lg text-white font-bold">
-          Pesquisar
+          {option == "Comprar" ? "Comprar" : "Alugar"}
         </button>
       </form>
     </div>
