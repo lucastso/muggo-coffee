@@ -1,4 +1,4 @@
-# savanna buildings
+# muggo coffee
 we offer a selection of cafe products with great prices. our target audience is young people.
 we want to convey a sense of nostalgia, while at the same time being fresh and cozy.
 
