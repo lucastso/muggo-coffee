@@ -5,7 +5,7 @@ import Nav from "../components/Nav";
 function Home() {
   return (
     <>
-      <Nav></Nav>
+      <Nav />
       <div className="bg-hero w-screen xs:h-auto lg:h-[1215px] bg-no-repeat bg-cover pt-[5.375rem] xs:px-4 lg:px-40">
         <HomeCard />
       </div>
