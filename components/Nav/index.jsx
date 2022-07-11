@@ -12,11 +12,8 @@ const Nav = () => {
         <a href="/sobre" className="text-lg font-bold">
           Sobre
         </a>
-        <a href="/blog" className="text-lg font-bold">
-          Blog
-        </a>
       </div>
-      <button className="flex items-center justify-center py-2 px-6 rounded-full bg-custom-blue">
+      <button className="flex items-center justify-center py-2 px-6 rounded-full bg-custom-orange">
         <a href="/search" className="font-bold text-lg">
           Pesquisar
         </a>

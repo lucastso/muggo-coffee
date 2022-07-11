@@ -57,7 +57,7 @@ const HomeCard = () => {
             }
           />
         </div>
-        <button className="bg-custom-blue mt-6 h-12 w-40 self-end rounded-lg text-white font-bold">
+        <button className="bg-custom-orange mt-6 h-12 w-40 self-end rounded-lg text-white font-bold text-lg">
           {option == "Comprar" ? "Comprar" : "Alugar"}
         </button>
       </form>
