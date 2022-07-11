@@ -14,8 +14,8 @@ module.exports = {
         hero: "url('/hero.png')",
       },
       colors: {
-        "custom-orange": "#EF8F00",
-        "custom-blue": "#396E96",
+        "custom-orange": "#FD9000",
+        "custom-blue": "#011111",
         "custom-black": "rgba(0, 0, 0, 0.25)",
       },
     },

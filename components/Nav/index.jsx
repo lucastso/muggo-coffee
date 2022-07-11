@@ -6,7 +6,7 @@ const Nav = () => {
 
   return (
     <nav
-      className={`w-screen xs:h-auto lg:h-[5.375rem] flex xs:flex-col lg:flex-row justify-between items-center xs:px-4 lg:px-40 absolute top-0 left-0  xs:py-8 lg:py-0 xs:gap-8 lg:gap-0 ${
+      className={`w-screen xs:h-auto lg:h-[5.375rem] flex xs:flex-col lg:flex-row justify-between items-center xs:px-4 lg:px-40 absolute top-0 left-0 xs:py-8 lg:py-0 xs:gap-8 lg:gap-0 ${
         router.pathname == "/"
           ? "backdrop-blur-xl bg-custom-black text-white"
           : "text-black border-b border-gray-200"
@@ -30,11 +30,16 @@ const Nav = () => {
           Sobre
         </a>
       </div>
-      <button className="flex items-center justify-center py-2 px-6 rounded-full bg-custom-orange xs:w-full lg:w-auto">
-        <a href="/products" className="font-bold text-lg text-white">
-          Pesquisar
-        </a>
-      </button>
+      <div className="flex items-center xs:gap-8 lg:gap-12">
+        <p className="xs:text-base lg:text-lg font-bold text-center">
+          9 9999 9999
+        </p>
+        <button className="flex items-center justify-center py-2 px-6 rounded-full bg-custom-orange xs:w-full lg:w-auto">
+          <a href="/products" className="font-bold text-lg text-white">
+            Localização
+          </a>
+        </button>
+      </div>
     </nav>
   );
 };
