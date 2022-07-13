@@ -9,13 +9,13 @@ const Footer = () => {
         className="xs:w-full xs:mb-12 lg:w-auto lg:mb-0"
       />
       <div className="flex flex-col gap-2 justify-start items-start">
-        <h1 className="font-bold text-lg mb-2">Páginas</h1>
+        <h1 className="font-bold text-lg mb-2">Pages</h1>
         <a href="/" className="xs:ml-2 lg:ml-0">
           Home
         </a>
       </div>
       <div className="flex flex-col gap-2 justify-start items-start">
-        <h1 className="font-bold text-lg mb-2">Informações</h1>
+        <h1 className="font-bold text-lg mb-2">Informations</h1>
         <a href="mailto:example@email.com" className="xs:ml-2 lg:ml-0">
           example@email.com
         </a>
@@ -25,9 +25,9 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex flex-col gap-2 justify-start items-start">
-        <h1 className="font-bold text-lg mb-2">Privacidade</h1>
+        <h1 className="font-bold text-lg mb-2">Privacy</h1>
         <a href="/" className="underline xs:ml-2 lg:ml-0">
-          Políticas
+          Policy
         </a>
       </div>
     </footer>

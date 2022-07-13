@@ -27,7 +27,7 @@ const Nav = () => {
           Home
         </a>
         <a href="/sobre" className="xs:text-base lg:text-lg font-bold">
-          Sobre
+          About
         </a>
       </div>
       <div className="flex items-center xs:gap-8 lg:gap-12">
@@ -36,7 +36,7 @@ const Nav = () => {
         </p>
         <button className="flex items-center justify-center py-2 px-6 rounded-full bg-custom-orange xs:w-full lg:w-auto">
           <a href="/products" className="font-bold text-lg text-white">
-            Localização
+            Location
           </a>
         </button>
       </div>
